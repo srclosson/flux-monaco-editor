@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "rootDirs": ["."],
+    "typeRoots": ["node_modules/@types"],
+    "module": "esNext",
+    "moduleResolution": "node",
+    "lib": ["es2017", "es2018", "esnext", "dom"],
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "importHelpers": true,
+    "noLib": false,
+    "noEmitHelpers": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+  ],
+}
